@@ -11,11 +11,12 @@ Graph Plotting in CPP
 Requirements
 ------------
 
-I did the plotting in C++ using ``pbPlot``, which is an external module. If you want to plot the graph in C++ with **pbPlot**, you should download the ``.cpp`` and ``.hpp`` files from the below link. 
+I did the plotting in C++ using ``pbPlot`` , which is an external module. If you want to plot the graph in C++ with **pbPlot**, you should download the ``.cpp`` and ``.hpp`` files from the below link. 
 
-``pbPlot``이라는 외부 모듈을 이용해서 C++에서 그래프를 그리는 방법을 알려드립니다. C++에서도 그래프를 그리는 여러방법이 있지만, 현재는 pbPlot 모듈을 이요했습니다. 이때, ``.cpp`` 와 ``.hpp``파일이 중요한데, 아래의 링크에서 다운로드를 해주세요.
+``pbPlot`` 이라는 외부 모듈을 이용해서 C++에서 그래프를 그리는 방법을 알려드립니다. C++에서도 그래프를 그리는 여러방법이 있지만, 현재는 pbPlot 모듈을 이요했습니다. 이때, ``.cpp`` 와 ``.hpp``파일이 중요한데, 아래의 링크에서 다운로드를 해주세요.
 
 **CAUTION: You should download the files, which have the following names, in 'Raw' and 'Save link as'.**
+
 **주의: 아래의 칸에 적힌 이름들을 가진 파일들을 'Raw'와 'Save Link as'를 통해 다운로드해주세요.**
 
 .. code::
@@ -86,6 +87,8 @@ Execution Command
 
 You can compile the cpp file and execute the compiled file using the below commands.
 
+아래의 명령어를 이용해 cpp 파일을 컴파일하고 그 컴파일된 파일을 실행할 수 있습니다.
+
 .. code:: shell
 
   g++ -o demo.out main.cpp pbPlots.cpp supportLib.cpp -lm
@@ -94,7 +97,11 @@ You can compile the cpp file and execute the compiled file using the below comma
   
 **If you use a shell script**
 
+**셸 스크립트를 이용한다면**
+
 After you enter the commands in shell script file, execute the below commands **when you save the shell script file as** ``do.sh``.
+
+``do.sh`` 라는 이름으로 셸 스크립트 파일을 저장했을때, 아래의 커맨드를 이용하세요.
 
 .. code:: shell
 
